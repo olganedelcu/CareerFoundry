@@ -41,7 +41,6 @@ const CourseDetails = (props) => {
               </p>
             ))}
           </div>
-          {/* <p>{courseDetails.prices}</p> */}
         </div>
       )}
     </>
