@@ -31,7 +31,7 @@ const CourseDetails = (props) => {
           <div>
             <div>Next Start Dates: </div>
             {courseDetails.start_dates.map((date) => (
-              <small> / {date}</small>
+              <small> {date} |</small>
             ))}
           </div>
           <div>
