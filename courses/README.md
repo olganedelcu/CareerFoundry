@@ -1,12 +1,3 @@
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
 ### About Section
 
 This project aims to fetch data from an API and display it to the user using a React.js app. 
@@ -35,3 +26,11 @@ SEO practices: using Lighthouse on Google to improve performance and Best Practi
 ![SEO practices](/Users/olga/Desktop/CareerFoundry/CareerFoundry/courses/media/Screenshot 2023-01-22 at 20.10.30.png)
 
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
