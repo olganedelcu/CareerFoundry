@@ -1,4 +1,4 @@
-### About Section
+## About Section
 
 This project aims to fetch data from an API and display it to the user using a React.js app. 
 
