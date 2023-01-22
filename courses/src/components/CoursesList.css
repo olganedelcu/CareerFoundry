@@ -1,0 +1,37 @@
+.body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.title {
+  color: #fff;
+  font-family: DINPro-Cond, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+}
+
+.course {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  max-width: 100%;
+  flex-basis: 100%;
+  padding-right: var(--half-gutter-width, 8px);
+  padding-left: var(--half-gutter-width, 8px);
+}
+
+.course-div {
+  display: flex;
+  border-radius: 5px;
+  padding: 32px;
+  box-shadow: 0 16px 24px 0 rgb(34 60 80 / 15%);
+  display: flex;
+  box-sizing: border-box;
+  background-color: var(--ds-color__petrol);
+  color: var(--ds-color__white);
+  color: #fff;
+}
+
+.course-title {
+  margin: 0;
+  font-family: DINPro-Cond, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}

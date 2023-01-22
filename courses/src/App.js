@@ -1,5 +1,5 @@
 import './App.css';
-import CoursesPage from './components/CoursesPage'
+import CoursesPage from './components/CoursesPage.js'
 
 function App() {
   return (
