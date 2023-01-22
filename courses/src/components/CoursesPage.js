@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import './CoursesList.css';
-import  CourseSelector from './CourseSelector.js';
-import CourseDetails from './CourseDetails.js';
+import "./CoursesList.css";
+import CourseSelector from "./CourseSelector.js";
+import CourseDetails from "./CourseDetails.js";
 
 const CoursesPage = () => {
   const [courses, setCourses] = useState([]);
@@ -27,13 +27,15 @@ const CoursesPage = () => {
   const handleSelect = (course) => {
     setSelectedCourse(course);
   };
-  return <>
-   <div className="title">
+  return (
+    <>
+      <div className="title">
         <h1>Courses</h1>
       </div>
       <CourseSelector courses={courses} handleSelect={handleSelect} />
       <CourseDetails courseDetails={courseDetails} />
-  </>;
+    </>
+  );
 };
 
 export default CoursesPage;

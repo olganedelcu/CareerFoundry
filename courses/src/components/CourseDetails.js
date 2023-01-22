@@ -29,17 +29,18 @@ const CourseDetails = (props) => {
           <h4>Course Details</h4>
           <p>{courseDetails.description}</p>
           <div>
+            <div>Next Start Dates: </div>
             {courseDetails.start_dates.map((date) => (
-              <p>{date}</p>
+              <small> / {date}</small>
             ))}
           </div>
-          <ul>
+          <div>
             {courseDetails.prices.map((price) => (
-              <li key={price.id}>
-                {price.amount} {currency}
-              </li>
+              <p key={price.id}>
+                €{price.amount} {currency}
+              </p>
             ))}
-          </ul>
+          </div>
           {/* <p>{courseDetails.prices}</p> */}
         </div>
       )}
