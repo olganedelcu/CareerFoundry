@@ -23,7 +23,8 @@ Work more on the style of the website, by creating a .css file for all our compo
 Testing: I would have done an integration test on our website using Cypress to test that our course Component is working as planned. And unit-testing for each component.
 SEO practices: using Lighthouse on Google to improve performance and Best Practices as we can see in the image below.
 
-![SEO practices](/Users/olga/Desktop/CareerFoundry/CareerFoundry/courses/media/Screenshot 2023-01-22 at 20.10.30.png)
+<img src="/Users/olga/Desktop/CareerFoundry/CareerFoundry/courses/media/Screenshot 2023-01-22 at 20.10.30.png" alt="image description">
+
 
 
 ## Available Scripts
