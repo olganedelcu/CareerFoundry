@@ -20,7 +20,7 @@ const CourseDetails = (props) => {
         //   setCurrency("EUR");
         // }
 
-        if (data.country_code == "EUR"){
+        if (data.country_code === "EUR"){
           setCurrency("EUR");
         }else {
           setCurrency("USD");
