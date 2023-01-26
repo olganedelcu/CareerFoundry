@@ -13,7 +13,7 @@ const CourseDetails = (props) => {
       .then((response) => response.json())
       .then((data) => {
         setLocation(data);
-        // Determine the appropriate currency to use based on the user's location
+        // Determine the appropriate currency based on the user's location
         if (data.country_code === "US") {
           setCurrency("USD");
         } else {
