@@ -32,7 +32,9 @@ const CoursesPage = () => {
       <div className="title">
         <h1>Courses</h1>
       </div>
-      <CourseSelector courses={courses} handleSelect={handleSelect} />
+      {selectedCourse == null && (
+        <CourseSelector courses={courses} handleSelect={handleSelect} />
+      )}
       <CourseDetails courseDetails={courseDetails} />
     </>
   );

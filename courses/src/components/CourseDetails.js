@@ -14,13 +14,19 @@ const CourseDetails = (props) => {
       .then((data) => {
         setLocation(data);
         // Determine the appropriate currency based on the user's location
-        if (data.country_code === "US") {
-          setCurrency("USD");
-        } else {
+        // if (data.country_code === "US") {
+        //   setCurrency("USD");
+        // } else {
+        //   setCurrency("EUR");
+        // }
+
+        if (data.country_code == "EUR"){
           setCurrency("EUR");
+        }else {
+          setCurrency("USD");
         }
       });
-  }, []);
+  }, []); // React will only run the effect once
 
   return (
     <>
